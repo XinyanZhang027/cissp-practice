@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import RegisterPanel from "../views/RegisterPanel.vue";
 import LoginPanel from "../views/LoginPanel.vue";
+import ExercisePanel from "../views/ExercisePanel.vue";
 
 const routes = [
   {
@@ -12,6 +13,11 @@ const routes = [
     path: "/login",
     name: "Login",
     component: LoginPanel,
+  },
+  {
+    path: "/exercise",
+    name: "Exercise",
+    component: ExercisePanel,
   },
 ];
 
